@@ -20,6 +20,4 @@ if __name__ == "__main__":
     client = OpenAI(api_key = 'your_key')
    
     word_test = generate_test("word")
-
-    # 打印生成的摘要
     print(word_test)
